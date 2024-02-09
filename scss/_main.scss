@@ -1,0 +1,51 @@
+main{
+  background-image: url(../img/fondo.png);
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+  }
+
+h1{
+    background-color: rgb(255, 237, 199);
+    text-align: center;
+  }
+
+  .imagenAjustada{
+    object-fit: cover;
+
+  }
+
+
+
+.imagen img {
+  height: 300px;
+}
+
+.formu {
+    padding: 10px;
+    background-color: rgb(232, 249, 255);
+  }
+  
+  .portada {
+    height: 480px;
+    object-fit: cover;
+  }
+  
+  .textoCarousel {
+    color: white;
+    background-color: black;
+  }
+
+  a{
+    @include propiedades;
+  }
+
+  .verMas{
+    font-size: larger;
+  }
+
+ .desborde{
+  width: 100%;
+  
+ }
