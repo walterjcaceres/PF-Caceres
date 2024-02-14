@@ -19,7 +19,7 @@ nav ul li {
 }
 nav ul li:hover {
   padding-bottom: 3px;
-  border-bottom: 2px midnightblue solid;
+  border-bottom: 2px royalblue solid;
   border-end-end-radius: 10px;
 }
 nav ul li a {
@@ -101,6 +101,21 @@ footer a .bi-twitter:hover {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .desborde {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media (max-width: 400px) {
+  footer {
+    padding: 40px;
+  }
+  footer a {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,7 @@ main{
   }
 
 h1{
-    background-color: rgb(255, 237, 199);
+    background-color: $color-fondo-encabezados;
     text-align: center;
   }
 
@@ -24,7 +24,7 @@ h1{
 
 .formu {
     padding: 10px;
-    background-color: rgb(232, 249, 255);
+    background-color: $color-fondo-formulario;
   }
   
   .portada {
