@@ -7,22 +7,21 @@
 header {
   text-align: center;
 }
-
-nav {
+header nav {
   display: flex;
   justify-content: end;
 }
-nav ul li {
+header nav ul li {
   list-style: none;
   margin: 5px;
   padding: 5px;
 }
-nav ul li:hover {
+header nav ul li:hover {
   padding-bottom: 3px;
   border-bottom: 2px royalblue solid;
   border-end-end-radius: 10px;
 }
-nav ul li a {
+header nav ul li a {
   text-decoration: none;
   color: royalblue;
   font-weight: bold;
@@ -66,6 +65,7 @@ h1 {
 a {
   text-decoration: none;
   color: royalblue;
+  font-weight: bold;
 }
 
 .verMas {
@@ -74,6 +74,44 @@ a {
 
 .desborde {
   width: 100%;
+}
+
+.textoDerecha {
+  text-align: right;
+}
+
+.separador {
+  padding: 10px;
+  border-bottom: 1px gainsboro solid;
+}
+
+.navAyuda {
+  background-color: rgba(245, 245, 245, 0.75);
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+  border-right: 1px gainsboro solid;
+}
+.navAyuda ul li {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.barraBusqueda {
+  background-color: rgba(245, 245, 245, 0.75);
+  border-bottom: 1px gainsboro solid;
+  padding: 5px 0px;
+  margin: 0px;
+}
+.barraBusqueda button {
+  background-color: royalblue;
+  color: white;
+  margin: 0px 4px;
+}
+.barraBusqueda button:hover {
+  background-color: blue;
+  color: white;
 }
 
 footer {

@@ -49,3 +49,39 @@ h1{
   width: 100%;
   
  }
+
+ .textoDerecha{
+  text-align: right;
+ }
+
+ .separador{
+  padding: 10px;
+  border-bottom: 1px gainsboro solid;
+ }
+
+ .navAyuda{
+    background-color: rgb(245, 245, 245, 0.75);
+  @include propiedades;
+  border-right: 1px gainsboro solid;
+
+  ul li{
+    @include lista;
+  }
+ }
+
+
+ .barraBusqueda{
+  background-color:rgb(245, 245, 245, 0.75) ;
+  border-bottom: 1px gainsboro solid;
+  padding: 5px 0px;
+  margin: 0px;
+  button{
+    background-color: royalblue ;
+    color: white;
+    margin: 0px 4px;
+    &:hover{
+      background-color: blue;
+      color:white;
+    }
+  }
+ }
