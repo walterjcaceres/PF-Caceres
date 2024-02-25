@@ -1,15 +1,19 @@
-@media (max-width:1200px){
+
+@media (max-width:1200px){   //modificaciones para mobile y tablet
 
     .desborde{
         width: 100%;
         object-fit: contain;
         
        }
-
+    .fondoAyuda{
+        background-color: rgb(245, 245, 245, 0.75);
+        border-right: 1px gainsboro solid;
+    }
       
 }
 
-@media (max-width:400px){
+@media (max-width:768px){ //modificaciones solo para mobile
 
     footer {
         padding: 40px;
@@ -19,5 +23,7 @@
         }
           
         }
-      
+
+
 }
+

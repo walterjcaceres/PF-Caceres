@@ -115,10 +115,16 @@ a {
 }
 
 footer {
-  padding: 100px;
+  padding: 50px;
   text-align: center;
   color: grey;
   background-color: rgb(65, 65, 65);
+}
+footer h5 {
+  text-align: start;
+  color: #fafafa;
+  font-weight: bold;
+  padding-left: 1.5rem;
 }
 footer a {
   text-decoration: none;
@@ -135,10 +141,24 @@ footer a .bi-facebook:hover {
 footer a .bi-twitter:hover {
   color: cadetblue;
 }
+footer ul {
+  list-style: none;
+  text-align: start;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 
 @media (max-width: 1200px) {
@@ -146,8 +166,12 @@ body {
     width: 100%;
     object-fit: contain;
   }
+  .fondoAyuda {
+    background-color: rgba(245, 245, 245, 0.75);
+    border-right: 1px gainsboro solid;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   footer {
     padding: 40px;
   }
